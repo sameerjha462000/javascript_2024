@@ -17,3 +17,14 @@ console.log(age)
 */
 
 
+{
+    console.log(passion) //  we are using passion in its TDZ.
+
+    // since let and const are block scoped, this means that they are restricted to the block in which they are defined.
+    // In this case the scope of this 'passion' variable is from line no 20 to 26 and the lines from 20 to 24 are TDZ for this 
+    // variable.
+    let passion = 'mathematics'
+
+    console.log(passion)
+}
+
