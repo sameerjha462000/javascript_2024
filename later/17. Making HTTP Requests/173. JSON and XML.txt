@@ -1,0 +1,9 @@
+JSON -- JavaScript Object Notation
+XML -- Extensible markup language
+
+Both of them are formats to represent data. XML is parent language of HTML.
+No one uses XML nowadays. We mostly use JSON.
+
+JSON is just a subset of usual JavaScript Object. JSON is just an object.
+We can only have string as a key and we cannot have complicated JavaScript structures as value. For example,
+We cannot have function as a value in a JSON.
